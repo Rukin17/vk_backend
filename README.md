@@ -26,15 +26,17 @@
 2. Ссылка на диаграмму со схемой взаимодействия компонентов:
     https://drive.google.com/file/d/1lvAqQHSGxXBlpfDOImBnGAvG0Qx4txlY/view?usp=drive_link
 
+    
                 Облачное хранилище
                   |   
                   |   
-    client ---- A P I ---- redis       postgresql
-                |  |                      |
-                |  |-----------------------       
+    client ---- A P I ----> redis       postgres
+                |  |-----------------------|       
                 |
                 |
-            logystics_system
+                logystics_system
+
+
 
     вкратце опишу в таком виде, на случай если накосячил со ссылкой..
 
